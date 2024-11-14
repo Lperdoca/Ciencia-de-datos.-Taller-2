@@ -1,9 +1,9 @@
 import shutil
 from pathlib import Path
 
-directorio = 'val'
+# directorio = 'val'
 # directorio = 'train'
-# directorio = 'test'
+directorio = 'test'
 
 fruits_and_products = [
     'Golden-Delicious',
@@ -88,7 +88,7 @@ def get_folder_names(path):
             if item.name in fruits_and_products:
                 print(item.absolute())
                 src = item.absolute()
-                dest = r'C:\Users\Esteban\Documents\MINE\GroceryStoreDataset\new_dataset\{}\{}'.format(directorio, item.name)
+                dest = r'C:\Users\lperd\OneDrive - Universidad de los andes\MINE 2024-2\CIENCIA DE DATOS APLICADA\Talleres\Taller 2\GroceryStoreDataset\new_dataset\{}\{}'.format(directorio, item.name)
                 copy_folder(src, dest)
             if not any(item.iterdir()):
                 pass
@@ -96,7 +96,7 @@ def get_folder_names(path):
                 get_folder_names(item)
 
 # Ejemplo de uso
-path = r'C:\Users\Esteban\Documents\MINE\GroceryStoreDataset\dataset\{}'.format(directorio)
+path = r'C:\Users\lperd\OneDrive - Universidad de los andes\MINE 2024-2\CIENCIA DE DATOS APLICADA\Talleres\Taller 2\GroceryStoreDataset\dataset\{}'.format(directorio)
 
 
 get_folder_names(path)
