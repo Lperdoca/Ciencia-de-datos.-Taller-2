@@ -1,4 +1,4 @@
-# Ciencia-de-datos.-Taller-2
+# Ciencia de datos: Taller-2
 
 El objetivo de este taller es aplicar técnicas de machine learning, las cuales permita descubrir insights, sugerir accionables al negocio y calcular el valor ganado.
 
