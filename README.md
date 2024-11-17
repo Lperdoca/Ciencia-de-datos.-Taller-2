@@ -52,8 +52,8 @@ Adicionalmente, una vez implementado el modelo, se recomienda entrenarlo regular
 #### Instrucciones de Ejecución
 
 Se genera un archivo .py y un notebook para el desarrollo de los puntos del taller los cuales deben ejecutarse en el siguiente orden: 
-1. 
-
+1. unique_struct.py mediante el cual se extraen las categorías de imágenes al nivel requerido.
+2. ML_Supermercado_Inteligente en donde se realiza el análisis y desarrollo de los modelos.
 
 #### Autores
 
